@@ -1,0 +1,11 @@
+torch
+transformers
+accelerate
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+biopython
+jupyter
+multimolecule
