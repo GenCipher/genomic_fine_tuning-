@@ -9,7 +9,8 @@ This project investigates how pretrained genomic language models can learn to di
 
 We will use DNABERT-2 as our pretrained model and fine-tune it using labelled transcript sequences.
 
-Objectives
+# Objectives
+
 Understand DNA and RNA sequence representations.
 Explore coding and non-coding transcript datasets.
 Learn genomic sequence preprocessing and tokenisation.
@@ -25,8 +26,9 @@ DNABERT-2
 Pandas and NumPy
 Scikit-learn
 Matplotlib and Seaborn
-Project Structure
-text
+
+# Project Structure
+
 genomics-dna-classifier/
 ├── data/
 ├── notebooks/
@@ -37,27 +39,20 @@ genomics-dna-classifier/
 ├── requirements.txt
 └── .gitignore
 
-Dataset
+# Dataset
 
 We plan to explore the CPC2 dataset, which contains labelled protein-coding and non-coding transcript sequences.
 
 Dataset source: http://cpc2.gao-lab.org/
 
-Workflow
+# Workflow
 Dataset exploration
 Sequence preprocessing
 DNA/RNA tokenisation
 Pretrained model loading
 Model fine-tuning
 Model evaluation
-Current Status
 
+# Current Status
 Project setup and initial dataset exploration.
 
-Disclaimer
-
-This is an educational research project. Model predictions should not be interpreted as clinical or biological evidence without independent validation.
-
-Author
-
-Created as a personal learning project in bioinformatics and deep learning.
